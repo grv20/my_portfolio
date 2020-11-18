@@ -53,12 +53,12 @@
  }
 
  .about-info{
-    grid-template-areas:
-    'bioimage'
-    'bio'
-    'job1'
-    'job2'
-    'job3';
+    // grid-template-areas:
+    // 'bioimage'
+    // 'bio'
+    // 'job1'
+    // 'job2'
+    // 'job3';
 
     grid-template-columns: 1fr;
  }
@@ -87,6 +87,17 @@ h1,h2,h3{
    &.lg-heading{
     
    font-size: 4.5rem;
+}
+}
+.about-info{
+.bio{
+    //grid-area: bio;
+    font-size: 0.8rem;
+}
+.job{
+    .job-text{
+        font-size: 0.7rem;
+    }
 }
 }
 }
